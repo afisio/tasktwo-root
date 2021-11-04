@@ -11,10 +11,10 @@
 {{greeting}}
 
 <h2>Textarea</h2>
-<form action="/action_page.php">
-<textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>	
+<form action="{% url 'reverse' %}">
+<textarea name="usertext" rows="10" cols="30"></textarea>	
 <br><br>
-<input type="submit" name="Textarea">
+<input type="submit" name="Reverse">
 </form>
 <p>Вносим изменения в файле для гита...</p>
 
